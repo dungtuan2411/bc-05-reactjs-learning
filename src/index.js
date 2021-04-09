@@ -1,14 +1,20 @@
-import React from 'react';
+import React from 'react'; // Import thư viện react
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Setup boostrap
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/jquery/dist/jquery.slim";
+import "../node_modules/popper.js/dist/popper";
+import "../node_modules/bootstrap/dist/js/bootstrap";
 
 ReactDOM.render(
+    // Nội dung
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') // Vị trí nội dung
 );
 
 // If you want to start measuring performance in your app, pass a function
